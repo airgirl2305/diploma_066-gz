@@ -1,0 +1,24 @@
+@import ./_variables.sass
+
+html,
+*
+  margin: 0
+  box-sizing: border-box
+
+body
+  background-color: $back-main-color
+  font-family: $text-font
+  color: $dark-color
+  line-height: 1.5 //* межстрочный интервал
+
+  
+
+
+//* отображение элементов в цветовых схемах ОС
+  color-scheme: light dark
+//* любое из недостающих начертаний будет синтезировано браузером
+  font-synthesis: none
+//* качественное отображение важнее скорости, разрешает кернинг и лигатуры
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
