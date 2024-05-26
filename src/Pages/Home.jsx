@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import pic1 from "../../public/images/carusel01.png";
-import pic2 from "../../public/carusel02.png";
+import pic2 from "../../public/images/carusel02.png";
 import "./Pages.sass";
 import { Map } from "../components/Map.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
