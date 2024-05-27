@@ -2,8 +2,8 @@ import "./Pages.sass";
 export const Supply = () => {
   return (
     <div className="service">
-      <h1 className="page-title">Поставка запчастей</h1>
-      <p className="service__page-text">
+      <h1 className="service__page-title">Поставка запчастей</h1>
+      <p className="service__page-text text-left">
         Предоставляем широкий ассортимент запчастей для электронных микроскопов. Мы также участвуем
         в тендерах, предлагая наши услуги и продукты для различных проектов и закупок, связанных с
         электронными микроскопами. Наша компания гарантирует качество предоставляемых услуг и
